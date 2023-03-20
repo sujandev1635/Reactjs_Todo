@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #2B3467; */
+   
+  }
+ 
+  h1{
+    color: #820000;
+  }
+  h2{
+    color: #16FF00;
+  }
+  h3{
+    color: #183A1D;
+  }
+  p{
+    color: #00235B;
+  }
+  .button{
+    width: 100px;
+    height: 40px;
+    background-color: #00235B;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    /* display: block; */
+    margin: 0 auto;
+   
+  }
+  .button:hover{
+    background-color: #16FF00;
+    color: white;
+  }
+
+  .faRegTrashAlt{
+    border: non;
+    color: red;
+    cursor: pointer;
+  }
+  /* Todo apps */
+  .container{
+    flex-direction: column;
+    background: #E21818;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .todos1{
+    width: 50%;
+    background-color: #B73E3E;
+    color: wheat;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+  /* overflow: hidden; */
+    height: 60vh;
+  }
+  .todo{
+    background: #182747;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    
+  }
+  .todo:hover{
+    background-color: #562B08;
+  
+  }
+  .todo p.pclass{
+    opacity: 0.6;
+    color: white;
+    
+  }
+  .todo .hcolor{
+    color: white;
+    
+    
+  }
+  h1.hclasss{
+    color: white;
+    background-color: blue;
+  }
+  .form{
+    width: 50%;
+    background-color: #B73E3E;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .form-field{
+    margin: 1rem 0;
+    display: flex;
+    
+  }
+  .form-field label{
+    flex-basis: 15%;
+    padding: 0.2rem;
+  }
+  .form-field imput{
+    flex-basis: 85%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+  
+  }
+  .form-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+  }
+  .btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+  }
+  
+  
+  
